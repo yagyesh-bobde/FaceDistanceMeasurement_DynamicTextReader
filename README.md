@@ -18,8 +18,11 @@ This is one of the applications of the above project we created. The basic idea 
 Here is how it looks : 
 
 <h4>Close</h4>
+
 ![](img/close.png)
+
 <h4>Far</h4>
+
 ![](img/far.png)
 
 
