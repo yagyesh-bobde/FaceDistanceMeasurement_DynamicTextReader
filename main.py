@@ -2,7 +2,15 @@ from cv2 import cv2
 import cvzone
 from cvzone.FaceMeshModule import FaceMeshDetector
 
+
+##########
 vid = cv2.VideoCapture(1)
+
+vid.set(3,640)
+vid.set(4,480)
+#########
+
+
 detector = FaceMeshDetector(maxFaces=1 )
 
 while 1:
@@ -28,7 +36,7 @@ while 1:
 
         f = 1070
         d = (W*f)/w
-        cvzone.putTextRect(img,f'Distance {int(d)} cm',(face[10][1] , face[10][1]))
+        cvzone.putTextRect(img,'Distance:'+str(int(d)),(face[10][1]+100 , face[10][1]-30),2,1)
 
 
 
