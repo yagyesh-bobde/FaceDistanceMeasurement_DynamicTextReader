@@ -14,3 +14,12 @@ Here we have used the concept of basic pinhole camera to first find the focal le
 And we've used <u>*our eyes*</u> as reference because even though the face features vary from person to person but the distance between the eyes is almost same at about 6.3cm avg for both men and women.
 
 # DynamicTextReader 
+This is one of the applications of the above project we created. The basic idea is based on your distance from the computer, it will automatically change the text size, you know, automatic zooming based on your distance, Cool! right?
+Here is how it looks : 
+
+<h4>Close</h4>
+![](img/close.png)
+<h4>Far</h4>
+![](img/far.png)
+
+
